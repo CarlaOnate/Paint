@@ -22,7 +22,7 @@ def square(start, end):
     end_fill()
 
 def drawCircle(start, end):
-    "Draw circle from start to end."
+    "Draw circle function completed"
     up()
     goto(start.x, start.y)
     radius = abs(start.x - end.x)
@@ -63,6 +63,8 @@ onkey(lambda: color('black'), 'K')
 onkey(lambda: color('white'), 'W')
 onkey(lambda: color('green'), 'G')
 onkey(lambda: color('blue'), 'B')
+'''Color orange was added '''
+onkey(lambda: color('orange'), 'O')
 onkey(lambda: color('red'), 'R')
 onkey(lambda: store('shape', line), 'l')
 onkey(lambda: store('shape', square), 's')
