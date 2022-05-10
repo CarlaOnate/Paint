@@ -22,13 +22,13 @@ def square(start, end):
     end_fill()
 
 def drawCircle(start, end):
-    "Draw circle function completed"
+    #Draws circle with custom radius
     up()
     goto(start.x, start.y)
-    radius = abs(start.x - end.x)
+    radius = abs(start.x - end.x) # radius calculated from start and end of x axis
     down()
-    begin_fill()
-    circle(radius)
+    begin_fill() # We want the circle to be filled after it's created
+    circle(radius) # Creates the circle with specific radius
     end_fill()
 
 def rectangle(start, end):
@@ -63,7 +63,7 @@ onkey(lambda: color('black'), 'K')
 onkey(lambda: color('white'), 'W')
 onkey(lambda: color('green'), 'G')
 onkey(lambda: color('blue'), 'B')
-'''Color orange was added '''
+# If user clicks on O the all the lines or shapes will be orange
 onkey(lambda: color('orange'), 'O')
 onkey(lambda: color('red'), 'R')
 onkey(lambda: store('shape', line), 'l')
