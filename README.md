@@ -17,6 +17,3 @@ En este juego se pueden pintar lineas o algunas figuras, al igual se le puede ca
 - Blue: (B)
 - Orange: (O)
 - Red: (R)
-
-Este proyecto se hizo con contribuciones.
-#1
