@@ -17,3 +17,5 @@ En este juego se pueden pintar lineas o algunas figuras, al igual se le puede ca
 - Blue: (B)
 - Orange: (O)
 - Red: (R)
+
+![PainImage](/assets/paint.png)
